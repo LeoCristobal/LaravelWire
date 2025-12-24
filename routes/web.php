@@ -1,7 +1,7 @@
 <?php
 
-use App\Livewire\Counter;
-use App\Livewire\Second;
+
+use App\Livewire\Greet;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/counter', Counter::class);
+Route::get('/greet', Greet::class);
